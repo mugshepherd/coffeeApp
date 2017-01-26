@@ -22,15 +22,28 @@ The application uses mock data to display a list of beverages and lets the user 
  - include test cases
  - create documentation for how to run app
 
+## Status
+ - Constraints on toppings related to category of drink have not yet implemented.
+ - The limit of 2 toppings has not yet been implemented
+ - Submission to an external backend API not yet implemented.
+ - One test case has been drafted, but fittingly, it has not been tested.
+
 
 ## Note
+ - The author relied on the Angular telephone tutorial as a template for this app.  Details regarding that project are located at [https://docs.angularjs.org/tutorial](https://docs.angularjs.org/tutorial).  
+ - Please install dependencies via `npm install`.
+ - Start the application by typing `npm start`.
+ - Once you have started the application, you can visit it in your browser at [http://localhost:8000/](http://localhost:8000/).  
+ - Original notes from the original Telephone Tutorial are included below for reference.  
 
- - Testing has not yet been implemented.
- - This app was created using the Angular telephone tutorial.  Details for installing dependencies and running application below, taken directly from the docs (with some ommissions of unused folders and assets from that project)
 
 
 ## Etc.
-"### Installing Dependencies
+- As noted above, this app was created using the Angular telephone tutorial. Users not familiar with Angular are encouraged to check out that tutorial at the link above.
+- Details for installing dependencies and running application are included below, copied directly from the telephone tutorial docs (with some ommissions of unused folders and assets from that project).  
+
+
+### Installing Dependencies
 
 The application relies upon various Node.js tools, such as [Bower][bower], [Karma][karma] and
 [Protractor][protractor]. You can install these by running:

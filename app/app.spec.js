@@ -4,11 +4,11 @@ describe('ItemListController', function() {
 
   beforeEach(module('coffeeShopApp'));
 
-  it('should create a `phones` model with 3 phones', inject(function($controller) {
+  it('should create a `beverage` model with 5 beverages', inject(function($controller) {
     var scope = {};
-    var ctrl = $controller('PhoneListController', {$scope: scope});
+    var ctrl = $controller('itemListController', {$scope: scope});
 
-    expect(scope.phones.length).toBe(3);
+    expect(scope.items.beverages.length).toBe(5);
   }));
 
 });

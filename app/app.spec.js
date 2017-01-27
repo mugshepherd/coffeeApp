@@ -6,7 +6,7 @@ describe('ItemListController', function() {
 
   it('should create a `beverage` model with 5 beverages', inject(function($controller) {
     var scope = {};
-    var ctrl = $controller('itemListController', {$scope: scope});
+    var ctrl = $controller('ItemListController', {$scope: scope});
 
     expect(scope.items.beverages.length).toBe(5);
   }));
